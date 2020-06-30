@@ -57,5 +57,7 @@ laravel new blog
 If you are using valet link, must use it inside the project directory and browse it through http://blog.test
 If you are using valet park, you can browse it through http://blog.test
 
+Enter `brew services start mysql` for mysql connection
+
 #### For further and details documentation, please visit https://laravel.com/docs/7.x/valet
 
