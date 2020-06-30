@@ -36,7 +36,9 @@ sudo vim /etc/paths
 ```bash
 ping foorbat.test
 ```
-You should be seeing this then you're ready to go.
+You should be seeing this 
+![Image of Yaktocat]
+then you're ready to go.
 
 4) To serve Laravel site, you can either `valet link` or `valet park`
 To serve a single a site in a directory not entire directory
