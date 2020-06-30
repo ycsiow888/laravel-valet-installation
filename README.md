@@ -13,23 +13,47 @@ A newbie guide for laravel valet installation
 ```bash
 cd ~/Desktop
 ```
-then create folder name `Project`
+Then create folder name `Project`
 ```bash
 mkdir project
 ```
 
-2) move inside the folder
+2) Move inside the folder
 ```bash
 cd Project
 ```
-install valet via
+Install valet via
 ```bash
 composer global require laravel/valet
 ```
- Make sure the ~/.composer/vendor/bin directory is in your system's "PATH".
- To edit/check type
- ```bash
- sudo vim /etc/paths
- ```
+Make sure the ~/.composer/vendor/bin directory is in your system's "PATH".
+To edit/check type
+```bash
+sudo vim /etc/paths
+```
  
- 3) ping 
+3) Ping `foobar.test` to check valet is installed correctly
+```bash
+ping foorbat.test
+```
+You should be seeing this then you're ready to go.
+
+4) To serve Laravel site, you can either `valet link` or `valet park`
+To serve a single a site in a directory not entire directory
+```bash
+valet link
+```
+To serve entire directory
+```bash
+valet park
+```
+
+5) Create a laravel project via
+```bash
+laravel new blog
+```
+If you are using valet link, must use it inside the project directory and browse it through http://blog.test
+If you are using valet park, you can browse it through http://blog.test
+
+## For further and details documentation, please visit https://laravel.com/docs/7.x/valet
+
