@@ -37,7 +37,7 @@ sudo vim /etc/paths
 ping foorbat.test
 ```
 You should be seeing this 
-![https://github.com/ycsiow888/laravel-valet-installation/sample.png]
+![Sample](/sample.png)
 then you're ready to go.
 
 4) To serve Laravel site, you can either `valet link` or `valet park`
