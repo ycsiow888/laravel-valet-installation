@@ -34,11 +34,11 @@ sudo vim /etc/paths
  
 3) Ping `foobar.test` to check valet is installed correctly
 ```bash
-ping foorbat.test
+ping foorbar.test
 ```
 You should be seeing this <br>
 <img src="/sample.png" width="250px" height="200px" alt="My cool sample"/> <br>
-then you're ready to go.
+then you're good to go.
 
 4) To serve Laravel site, you can either `valet link` or `valet park`
 To serve a single a site in a directory not entire directory
