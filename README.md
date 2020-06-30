@@ -36,8 +36,8 @@ sudo vim /etc/paths
 ```bash
 ping foorbat.test
 ```
-You should be seeing this 
-<img src="/sample.png" style="width:250px;height:250px" alt="My cool sample"/>
+You should be seeing this <br>
+<img src="/sample.png" width="250px" height="200px" alt="My cool sample"/> <br>
 then you're ready to go.
 
 4) To serve Laravel site, you can either `valet link` or `valet park`
