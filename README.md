@@ -22,15 +22,20 @@ mkdir project
 ```bash
 cd Project
 ```
-Install valet via
-```bash
-composer global require laravel/valet
-```
 Make sure the ~/.composer/vendor/bin directory is in your system's "PATH".
 To edit/check type
 ```bash
 sudo vim /etc/paths
 ```
+Install valet via
+```bash
+composer global require laravel/valet
+```
+Then 
+```bash
+valet install
+```
+
  
 3) Ping `foobar.test` to check valet is installed correctly
 ```bash
