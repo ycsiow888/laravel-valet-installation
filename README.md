@@ -36,6 +36,10 @@ Then
 valet install
 ```
 
+If valet command not found can enter this command 
+```bash
+test -d ~/.composer && bash ~/.composer/vendor/bin/valet install || bash ~/.config/composer/vendor/bin/valet install
+```
  
 3) Ping `foobar.test` to check valet is installed correctly
 ```bash
